@@ -8,6 +8,7 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
     
     
   const newDepositAmount = getInputFieldValueById("deposit-field");
+  //newDepositAmount.innerText = '';
   /* 
     1. get previous deposit total by id
     
